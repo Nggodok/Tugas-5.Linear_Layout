@@ -8,18 +8,21 @@
     android:paddingRight="16dp"
     android:orientation="vertical">
 
+    <!-- KEPADA SIAPA ANDA MENGIRIM -->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:hint="@string/to"/>
 
+    <!-- SUBJEK ATAU JUDUL PESAN ANDA -->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:hint="@string/subject"/>
 
+    <!-- PESAN YANG ANDA KIRIM -->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -28,6 +31,7 @@
         android:textColor="@color/black"
         android:hint="@string/message"/>
 
+    <!-- TOMBOL YANG DIGUNAKAN UNTUK MENGIRIM PESAN -->
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
